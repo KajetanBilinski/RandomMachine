@@ -24,16 +24,8 @@ public class RandomWithPercent implements RandomMachine{
     {
         try {
             backG = new ImageIcon(ImageIO.read(new File("src/Images/panelB.png")));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        try {
             panelImage = new ImageIcon(ImageIO.read(new File("src/Images/BackGroundPanel.jpg")));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        try {
-            butImage = new ImageIcon(ImageIO.read(new File("src/Images/DiceGradient.jpg")));
+             butImage = new ImageIcon(ImageIO.read(new File("src/Images/DiceGradient.jpg")));
         } catch (IOException e) {
             e.printStackTrace();
         }
