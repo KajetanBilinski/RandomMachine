@@ -21,16 +21,8 @@ public class CoinFlip implements RandomMachine {
     {
         try {
             panelIcon = new ImageIcon(ImageIO.read(new File("src/Images/panelB.png")));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        try {
             backIcon = new ImageIcon(ImageIO.read(new File("src/Images/BackGroundPanel.jpg")));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        try {
-            butIcon = new ImageIcon(ImageIO.read(new File("src/Images/Gradient_1.jpg")));
+             butIcon = new ImageIcon(ImageIO.read(new File("src/Images/Gradient_1.jpg")));
         } catch (IOException e) {
             e.printStackTrace();
         }
