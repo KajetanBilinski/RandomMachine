@@ -30,11 +30,7 @@ public class NumberFromTo implements RandomMachine{
     {
         try {
             panelB = new ImageIcon(ImageIO.read(new File("src/Images/panelB.png")));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        try {
-            panelImage = new ImageIcon(ImageIO.read(new File("src/Images/BackGroundPanel.jpg")));
+             panelImage = new ImageIcon(ImageIO.read(new File("src/Images/BackGroundPanel.jpg")));
         } catch (IOException e) {
             e.printStackTrace();
         }
