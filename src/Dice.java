@@ -21,20 +21,11 @@ public class Dice implements RandomMachine{
     {
         try {
             backImage = new ImageIcon(ImageIO.read(new File("src/Images/panelB.png")));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        try {
             panelImage = new ImageIcon(ImageIO.read(new File("src/Images/BackGroundPanel.jpg")));
+             butImage = new ImageIcon(ImageIO.read(new File("src/Images/DiceGradient.jpg")));
         } catch (IOException e) {
             e.printStackTrace();
         }
-        try {
-            butImage = new ImageIcon(ImageIO.read(new File("src/Images/DiceGradient.jpg")));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
         setup();
     }
 
